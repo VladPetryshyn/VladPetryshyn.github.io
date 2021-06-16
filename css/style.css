@@ -297,7 +297,8 @@ body.nav-active {
       margin-top: 18px; }
   @media (max-width: 1030px) {
     .about-me {
-      padding-left: 150px; } }
+      padding-left: 150px;
+      padding-top: 100px; } }
   @media (max-width: 810px) {
     .about-me {
       padding-left: 100px; } }
@@ -309,7 +310,8 @@ body.nav-active {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      padding: 0 30px; }
+      padding: 0 30px;
+      padding-top: 100px; }
       .about-me__title {
         position: relative;
         bottom: 0;
