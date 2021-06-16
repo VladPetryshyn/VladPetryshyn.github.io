@@ -188,7 +188,8 @@ body.nav-active {
       left: 0;
       width: 100%; }
   .header_nav-active {
-    padding-top: 23px; }
+    padding-top: 23px;
+    background: transparent !important; }
     .header_nav-active:after {
       display: none; }
     .header_nav-active .header__logo {

@@ -26,7 +26,6 @@ const toggleMenuVisibility = () => {
 button.onclick = toggleMenuVisibility
 
 window.addEventListener("scroll", () => {
-  console.log(window.scrollY)
   if (window.scrollY >= about.offsetTop - 60) {
     header.classList.add("header_scrolled")
   } else {
