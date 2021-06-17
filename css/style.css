@@ -284,7 +284,7 @@ body.nav-active {
     transform: rotate(-90deg); }
     .about-me__title:after {
       content: "";
-      width: 210%;
+      width: 250%;
       height: 1px;
       background: black;
       display: block; }
@@ -299,14 +299,24 @@ body.nav-active {
   @media (max-width: 1030px) {
     .about-me {
       padding-left: 150px;
-      padding-top: 100px; } }
-  @media (max-width: 810px) {
+      padding-top: 100px; }
+      .about-me__title:after {
+        width: 220%; } }
+  @media (max-width: 910px) {
+    .about-me__title:after {
+      width: 240%; } }
+  @media (max-width: 820px) {
     .about-me {
-      padding-left: 100px; } }
+      padding-left: 100px; }
+      .about-me__title:after {
+        width: 290%; } }
+  @media (max-width: 770px) {
+    .about-me__title:after {
+      width: 260%; } }
   @media (max-width: 700px) {
     .about-me__title:after {
-      width: 220%; } }
-  @media (max-width: 635px) {
+      width: 270%; } }
+  @media (max-width: 650px) {
     .about-me {
       flex-direction: column;
       align-items: center;
@@ -319,7 +329,7 @@ body.nav-active {
         left: 0;
         transform: initial; }
         .about-me__title:after {
-          width: 80%;
+          width: 90%;
           margin: 0 0 30px 0; }
       .about-me__text {
         padding-right: 0;
